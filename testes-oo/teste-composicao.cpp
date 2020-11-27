@@ -29,7 +29,7 @@ class Foo {
 };
 
 int main() {
-    Foo foo;
+    Foo foo; // cria um objeto de Foo (chamada do construtor é implícita)
     // o destrutor será chamado automaticamente ao término do programa
     return 0;
     /*
